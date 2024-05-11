@@ -77,6 +77,9 @@ export default function Home() {
             </CommandList>
           </Command>
         </div>
+        <div className="mt-8 text-center text-sm text-gray-500">
+          Self Hosted with ❤️ on Coolify
+        </div>
       </div>
     </main>
   )
