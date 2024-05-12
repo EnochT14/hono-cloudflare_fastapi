@@ -10,6 +10,8 @@ import {
 } from '@/components/ui/command'
 import { useEffect, useState } from 'react'
 
+export const runtime = "edge";
+
 export default function Home() {
   const [input, setInput] = useState<string>('')
   const [searchResults, setSearchResults] = useState<{
